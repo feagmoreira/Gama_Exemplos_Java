@@ -9,8 +9,8 @@ public class Uri1060{
 
         for (int cont=1; cont <= 6; cont++){
             numero = teclado.nextDouble();
-            if (numero > 0){
-                qtdePositivos = qtdePositivos + 1;
+            if (numero > 0){   //numero % 2== 0
+                qtdePositivos = qtdePositivos + 1; // qtdePares++;
             }
         }
 
