@@ -21,5 +21,14 @@ public class Uri1037{
         else{
             System.out.println("Fora de intervalo");
         }
+
+
+        if (codigo == 1){
+            total = 4.00 * quantidade;
+            System.out.printf("Total: R% %.2f\n". total);
+        }
+        else if (codigo == 2){
+            ...
+        }
     }
 }
